@@ -1,11 +1,18 @@
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./sections/Home/Home";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>App Mandy Spaan</h1>
-    </>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

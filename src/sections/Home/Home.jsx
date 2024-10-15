@@ -15,7 +15,19 @@ const Home = () => {
           />
           <div className="home-text">
             <h1>Mandy Spaan</h1>
-            <p>Full Stack / Frontend / Backend Developer</p>
+            <h2>Full Stack / Frontend / Backend Developer</h2>
+            <p>
+              Having recently completed an intensive Full-stack Development
+              bootcamp, I'm eager to continue immersing myself in
+              <span className="line-break">
+                <br />
+              </span>{" "}
+              web technologies and apply my skills through{" "}
+              <span className="line-break">
+                <br />
+              </span>
+              exciting new opportunities.
+            </p>
           </div>
         </div>
       </div>

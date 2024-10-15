@@ -20,6 +20,8 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           className="nav-link"
+          activeClass="active-nav-link"
+          spy={true}
           onClick={closeMenu}
         >
           Home
@@ -29,6 +31,8 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           className="nav-link"
+          activeClass="active-nav-link"
+          spy={true}
           onClick={closeMenu}
         >
           About
@@ -38,6 +42,8 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           className="nav-link"
+          activeClass="active-nav-link"
+          spy={true}
           onClick={closeMenu}
         >
           Projects
@@ -47,6 +53,8 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           className="nav-link"
+          activeClass="active-nav-link"
+          spy={true}
           onClick={closeMenu}
         >
           Contact

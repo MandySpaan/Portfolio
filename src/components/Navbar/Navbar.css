@@ -1,11 +1,18 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: #282c34;
-  color: white;
-  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-title {
@@ -14,46 +21,19 @@
 
 .nav-links {
   display: flex;
-  gap: 1rem;
-}
-
-/* Responsive styles for mobile view */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background-color: #282c34;
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-}
-
-.menu-button {
-  background: none;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 1.5rem;
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .menu-button {
-    display: block;
-  }
+  gap: 2rem;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: white;
-  font-size: 1rem;
+  color: rgb(88, 88, 88);
+  font-size: 1.1rem;
   transition: color 0.3s ease;
+}
+
+.active-nav-link {
+  font-weight: bold!important;
+  color: black!important;
 }
 
 .active-link {
@@ -62,5 +42,36 @@
 }
 
 .nav-links a:hover {
-  color: #61dafb;
+  color: black
+}
+
+.menu-button {
+  background: none;
+  color: black;
+  border: none;
+  margin-bottom: -0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: pink;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-button {
+    display: block;
+  }
 }

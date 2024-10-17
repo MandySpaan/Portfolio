@@ -17,7 +17,7 @@ const Home = () => {
             <h1>Mandy Spaan</h1>
             <h2>Full Stack / Frontend / Backend Developer</h2>
             <p>
-              Having recently completed an intensive Full-stack Development
+              Having recently completed an intensive Full-Stack Development
               bootcamp, I'm eager to continue immersing myself in
               <span className="line-break">
                 <br />

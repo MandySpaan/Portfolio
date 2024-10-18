@@ -1,6 +1,7 @@
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
+import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
       <div id="contact">
         <Contact />
       </div>
+      <Footer />
     </>
   );
 };

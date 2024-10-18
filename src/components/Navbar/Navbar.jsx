@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import useScrollSpy from "../../utils/useScrollSpy";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,6 +8,9 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
+
+  const sections = ["home", "about", "projects", "contact"];
+  const activeSection = useScrollSpy(sections, 100);
 
   return (
     <nav className="navbar">
@@ -19,8 +23,9 @@ const Navbar = () => {
           to="home"
           smooth={true}
           duration={500}
-          className="nav-link"
-          activeClass="active-nav-link"
+          className={`nav-link ${
+            activeSection === "home" ? "active-nav-link" : ""
+          }`}
           spy={true}
           onClick={closeMenu}
         >
@@ -30,8 +35,9 @@ const Navbar = () => {
           to="about"
           smooth={true}
           duration={500}
-          className="nav-link"
-          activeClass="active-nav-link"
+          className={`nav-link ${
+            activeSection === "about" ? "active-nav-link" : ""
+          }`}
           spy={true}
           onClick={closeMenu}
         >
@@ -41,8 +47,9 @@ const Navbar = () => {
           to="projects"
           smooth={true}
           duration={500}
-          className="nav-link"
-          activeClass="active-nav-link"
+          className={`nav-link ${
+            activeSection === "projects" ? "active-nav-link" : ""
+          }`}
           spy={true}
           onClick={closeMenu}
         >
@@ -52,8 +59,9 @@ const Navbar = () => {
           to="contact"
           smooth={true}
           duration={500}
-          className="nav-link"
-          activeClass="active-nav-link"
+          className={`nav-link ${
+            activeSection === "contact" ? "active-nav-link" : ""
+          }`}
           spy={true}
           onClick={closeMenu}
         >

@@ -1,0 +1,48 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-intro {
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    gap: 2rem;
+}
+
+.contact-link-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 10rem;
+
+    img {
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 0.2rem;
+    }
+}

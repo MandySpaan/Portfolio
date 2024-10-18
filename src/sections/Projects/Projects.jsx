@@ -8,7 +8,7 @@ const Projects = () => {
         <p>
           Underneath you will find some of the projects I have been working on.
           <br />
-          For all my projects, please visit my{" "}
+          For all my projects, please visit{" "}
           <a
             href="https://github.com/MandySpaan"
             target="_blank"
@@ -19,6 +19,98 @@ const Projects = () => {
           .
         </p>
         <div className="project-tiles">
+          <div className="project-tile">
+            <h3>Las Naves Coworking Space</h3>
+            <img
+              src="src/assets/images/project-lasnaves.png"
+              alt="Empanada Challenge Project"
+            />
+            <div className="project-tile-text">
+              Access control and management app for a coworking space: Users can
+              register, check in/out of rooms, make reservations, and view
+              real-time room availability.
+            </div>
+            <div>
+              Frontend Stack: React, TypeScript, CSS, Node.js, npm
+              <br />
+              Backend Stack: TypeScript, Node.js, npm, Express, MongoDB
+            </div>
+            <a
+              href="https://github.com/MandySpaan/LasNaves_Frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Frontend Project</button>
+            </a>
+            <a
+              href="https://github.com/MandySpaan/LasNaves_Backend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Backend Project</button>
+            </a>
+          </div>
+          <div className="project-tile">
+            <h3>GeekTok Social Media</h3>
+            <img
+              src="src/assets/images/project-geektok2.png"
+              alt="Empanada Challenge Project"
+            />
+            <div className="project-tile-text">
+              A social media platform for technology fans: Users can register,
+              log in, access the network, post, follow each other and interact.
+            </div>
+            <div>
+              Frontend Stack: React, TypeScript, CSS, Node.js, npm
+              <br />
+              Backend Stack: JavaScript, Node.js, npm, Express, MongoDB
+            </div>
+            <a
+              href="https://github.com/MandySpaan/SocialMedia_Frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Frontend Project</button>
+            </a>
+            <a
+              href="https://github.com/MandySpaan/SocialMedia_Backend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Backend Project</button>
+            </a>
+          </div>
+          <div className="project-tile">
+            <h3>Tattoo Paradise</h3>
+            <img
+              src="src/assets/images/project-tattooparadise.png"
+              alt="Empanada Challenge Project"
+            />
+            <div className="project-tile-text">
+              Appointment management for a tattoo studio: Users can (among other
+              things) register, log in, view a list of scheduled appointments
+              and create new appointments.
+            </div>
+            <div>
+              Frontend Stack: React, JavaScript, CSS, Node.js, npm
+              <br />
+              Backend Stack: TypeScript, Node.js, npm, Express, MySQL
+            </div>
+            <a
+              href="https://github.com/MandySpaan/TattooStudio_Frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Frontend Project</button>
+            </a>
+            <a
+              href="https://github.com/MandySpaan/TattooStudio_Backend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Go to Backend Project</button>
+            </a>
+          </div>
           <div className="project-tile">
             <h3>Empanada Challenge</h3>
             <img

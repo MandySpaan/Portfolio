@@ -10,7 +10,7 @@ const Home = () => {
       <div id="home">
         <div className="home-section">
           <img
-            src="src/assets/images/profile-photo.png"
+            src="/images/profile-photo.png"
             alt="Mandy Spaan"
             className="home-photo"
           />

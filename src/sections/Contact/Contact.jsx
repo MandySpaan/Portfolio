@@ -27,7 +27,7 @@ const Contact = () => {
           <a href={DownloadEnglishCV} download>
             <div className="contact-link-box">
               <img
-                src="src/assets/images/contact-download.png"
+                src="/images/contact-download.png"
                 alt="Download English CV"
               />
               <div className="contact-link-text">CV in English</div>
@@ -36,7 +36,7 @@ const Contact = () => {
           <a href={DownloadSpanishCV} download>
             <div className="contact-link-box">
               <img
-                src="src/assets/images/contact-download.png"
+                src="/images/contact-download.png"
                 alt="Download Spanish CV"
               />
               <div className="contact-link-text">CV en Español</div>
@@ -65,7 +65,7 @@ const Contact = () => {
         </div>
         <img
           className="contact-cv-img"
-          src="src/assets/images/contact-cv.png"
+          src="/images/contact-cv.png"
           alt="CV Resume"
         />
       </div>

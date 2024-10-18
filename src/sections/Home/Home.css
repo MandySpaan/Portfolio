@@ -1,5 +1,5 @@
 .home-section {
-    background-image: url('src/assets/images/background-white-furry.jpg');
+    background-image: url('/images/background-white-furry.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;

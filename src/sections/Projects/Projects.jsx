@@ -22,7 +22,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>Las Naves Coworking Space</h3>
             <img
-              src="src/assets/images/project-lasnaves.png"
+              src="/images/project-lasnaves.png"
               alt="Empanada Challenge Project"
             />
             <div className="project-tile-text">
@@ -53,7 +53,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>GeekTok Social Media</h3>
             <img
-              src="src/assets/images/project-geektok2.png"
+              src="/images/project-geektok2.png"
               alt="Empanada Challenge Project"
             />
             <div className="project-tile-text">
@@ -83,7 +83,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>Tattoo Paradise</h3>
             <img
-              src="src/assets/images/project-tattooparadise.png"
+              src="/images/project-tattooparadise.png"
               alt="Empanada Challenge Project"
             />
             <div className="project-tile-text">
@@ -114,7 +114,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>Empanada Challenge</h3>
             <img
-              src="src/assets/images/project-empanadas.png"
+              src="/images/project-empanadas.png"
               alt="Empanada Challenge Project"
             />
             <div className="project-tile-text">
@@ -134,7 +134,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>Interactive Television</h3>
             <img
-              src="src/assets/images/project-interactivetv.png"
+              src="/images/project-interactivetv.png"
               alt="Interactive TV Project"
             />
             <div className="project-tile-text">
@@ -161,7 +161,7 @@ const Projects = () => {
           <div className="project-tile">
             <h3>CuteCakes Basic Website</h3>
             <img
-              src="src/assets/images/project-cutecakes.png"
+              src="/images/project-cutecakes.png"
               alt="Cute Cakes Basic Website Project"
             />
             <div className="project-tile-text">

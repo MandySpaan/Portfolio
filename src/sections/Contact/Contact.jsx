@@ -1,6 +1,12 @@
 import "./Contact.css";
 
 const Contact = () => {
+  const DownloadEnglishCV =
+    "https://drive.google.com/uc?export=download&id=1OMWBoSI88RjTBahwzGtElAd_WiwNPvX3";
+
+  const DownloadSpanishCV =
+    "https://drive.google.com/uc?export=download&id=1gQCp5S51cGYP90kIgfW9s7_6kVcs0gIb";
+
   return (
     <div className="contact-section">
       <h1>Contact</h1>
@@ -14,36 +20,54 @@ const Contact = () => {
           LinkedIn
         </a>{" "}
         <br />
-        or you can also find my contact info on my CV
+        or you can find my contact info on my CV.
       </p>
       <div className="contact-content">
         <div className="contact-links">
+          <a href={DownloadEnglishCV} download>
+            <div className="contact-link-box">
+              <img
+                src="src/assets/images/contact-download.png"
+                alt="Download English CV"
+              />
+              <div className="contact-link-text">CV in English</div>
+            </div>
+          </a>
+          <a href={DownloadSpanishCV} download>
+            <div className="contact-link-box">
+              <img
+                src="src/assets/images/contact-download.png"
+                alt="Download Spanish CV"
+              />
+              <div className="contact-link-text">CV en Español</div>
+            </div>
+          </a>
           <div className="contact-link-box">
-            <img
-              src="src/assets/images/contact-download.png"
-              alt="Download CV"
-            />
-            <div className="contact-link-text">CV in English</div>
-          </div>{" "}
-          <div className="contact-link-box">
-            <img
-              src="src/assets/images/contact-download.png"
-              alt="Download CV"
-            />
-            <div className="contact-link-text">CV en Español</div>
-          </div>{" "}
-          <div className="contact-link-box">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-            <div className="contact-link-text">GitHub Page</div>
-          </div>{" "}
-          <div className="contact-link-box">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
-            <div className="contact-link-text">LinkedIn Page</div>
+            <a
+              href="https://github.com/MandySpaan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+              <div className="contact-link-text">GitHub Page</div>
+            </a>
           </div>
+          <a
+            href="https://www.linkedin.com/in/mandyspaan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contact-link-box">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+              <div className="contact-link-text">LinkedIn Page</div>
+            </div>
+          </a>
         </div>
-        <div className="contact-cv">
-          <img src="src/assets/images/contact-cv.png" alt="CV Resume" />
-        </div>
+        <img
+          className="contact-cv-img"
+          src="src/assets/images/contact-cv.png"
+          alt="CV Resume"
+        />
       </div>
     </div>
   );

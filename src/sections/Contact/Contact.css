@@ -38,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.486);
     border-width: 0.1rem;
@@ -50,6 +51,11 @@
         width: 5rem;
         height: 5rem;
         margin-bottom: 0.2rem;
+        cursor: pointer;
+    }
+
+    .contact-link-text {
+        cursor: pointer;
     }
 }
 

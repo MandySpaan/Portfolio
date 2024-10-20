@@ -69,4 +69,10 @@
         border-color: rgba(61, 61, 61, 0.466);
         cursor: pointer;
     }
+
+    @media (max-width: 480px) {
+    .line-break {
+        display: none;
+    }
+}
 }

@@ -48,7 +48,10 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+              <img
+                className="github-img"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              />
               <div className="contact-link-text">GitHub Page</div>
             </a>
           </div>

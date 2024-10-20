@@ -6,8 +6,10 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-content">
         <p>
-          Underneath you will find some of the projects I have been working on.
-          <br />
+          Here you will find some of the projects I have been working on.
+          <span className="line-break">
+            <br />
+          </span>{" "}
           For all my projects, please visit{" "}
           <a
             href="https://github.com/MandySpaan"

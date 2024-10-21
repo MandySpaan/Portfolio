@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    text-align: center;
 }
 
 .projects-content {
@@ -16,6 +17,18 @@
     p {
         text-align: center;
     }
+
+    .separator {
+        width: 20rem;
+        height: 1px;
+        background-color: rgb(122, 122, 122);
+        margin-bottom: 0.8rem;
+      }
+
+      .separator-vertical {
+        margin-left: 0.45rem;
+        margin-right: 0.8rem;
+      }
 }
 
 .project-tiles {
@@ -27,6 +40,9 @@
 }
 
 .project-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #f9f9f9;
     max-width: 100vw;
     padding: 1rem;
@@ -37,7 +53,6 @@
     border-color: #81818141;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 26rem;
 
     h3 {
@@ -45,7 +60,7 @@
     }
 
     img {
-        width: 100%;
+        width: 23rem;
         height: 15rem;
         object-fit: cover;
         border-radius: 0.4rem;
@@ -54,25 +69,58 @@
         border-color: rgba(61, 61, 61, 0.295);
         border-style: solid;
         border-width: 0.005rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     }
 
     .project-tile-text {
         margin-bottom: 0.8rem;
     }
 
+    .box-stack-buttons {
+        display: flex;
+    }
+
+    .stack-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .stack {
+        max-width: 13rem;
+    }
+
     button {
         background-color: rgb(255, 216, 222);
-        padding: 0.4rem;
+        color: #333;
+        padding: 0.5rem 0.8rem;
         margin-top: 0.5rem;
         margin-right: 0.5rem;
         border-radius: 0.4rem;
-        border-color: rgba(61, 61, 61, 0.466);
+        border: 2px solid rgba(61, 61, 61, 0.466);
         cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: rgb(255, 199, 209);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     @media (max-width: 480px) {
     .line-break {
         display: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .stack {
+        font-size: 0.8rem;
     }
 }
 }

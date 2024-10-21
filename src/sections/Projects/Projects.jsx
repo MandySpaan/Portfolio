@@ -32,25 +32,37 @@ const Projects = () => {
               register, check in/out of rooms, make reservations, and view
               real-time room availability.
             </div>
-            <div>
-              Frontend Stack: React, TypeScript, CSS, Node.js, npm
-              <br />
-              Backend Stack: TypeScript, Node.js, npm, Express, MongoDB
+            <hr className="separator" />
+            <div className="box-stack-buttons">
+              <div className="stack-button">
+                <div className="stack">
+                  Frontend Stack
+                  <br />
+                  React, TypeScript, Node.js, npm, CSS
+                </div>
+                <a
+                  href="https://github.com/MandySpaan/LasNaves_Frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Frontend Project</button>
+                </a>
+              </div>
+              <hr className="separator-vertical" />
+              <div className="stack-button">
+                <div className="stack">
+                  Backend Stack <br />
+                  TypeScript, Node.js, npm, Express, MongoDB
+                </div>
+                <a
+                  href="https://github.com/MandySpaan/LasNaves_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Backend Project</button>
+                </a>
+              </div>
             </div>
-            <a
-              href="https://github.com/MandySpaan/LasNaves_Frontend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Frontend Project</button>
-            </a>
-            <a
-              href="https://github.com/MandySpaan/LasNaves_Backend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Backend Project</button>
-            </a>
           </div>
           <div className="project-tile">
             <h3>GeekTok Social Media</h3>
@@ -62,25 +74,37 @@ const Projects = () => {
               A social media platform for technology fans: Users can register,
               log in, access the network, post, follow each other and interact.
             </div>
-            <div>
-              Frontend Stack: React, TypeScript, CSS, Node.js, npm
-              <br />
-              Backend Stack: JavaScript, Node.js, npm, Express, MongoDB
+            <hr className="separator" />
+            <div className="box-stack-buttons">
+              <div className="stack-button">
+                <div className="stack">
+                  Frontend Stack <br />
+                  React, TypeScript, Node.js, npm, CSS
+                </div>
+                <a
+                  href="https://github.com/MandySpaan/SocialMedia_Frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Frontend Project</button>
+                </a>
+              </div>
+              <hr className="separator-vertical" />
+              <div className="stack-button">
+                <div className="stack">
+                  Backend Stack <br />
+                  JavaScript, Node.js, npm, Express, MongoDB
+                </div>
+
+                <a
+                  href="https://github.com/MandySpaan/SocialMedia_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Backend Project</button>
+                </a>
+              </div>
             </div>
-            <a
-              href="https://github.com/MandySpaan/SocialMedia_Frontend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Frontend Project</button>
-            </a>
-            <a
-              href="https://github.com/MandySpaan/SocialMedia_Backend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Backend Project</button>
-            </a>
           </div>
           <div className="project-tile">
             <h3>Tattoo Paradise</h3>
@@ -93,25 +117,37 @@ const Projects = () => {
               things) register, log in, view a list of scheduled appointments
               and create new appointments.
             </div>
-            <div>
-              Frontend Stack: React, JavaScript, CSS, Node.js, npm
-              <br />
-              Backend Stack: TypeScript, Node.js, npm, Express, MySQL
+            <hr className="separator" />
+            <div className="box-stack-buttons">
+              <div className="stack-button">
+                <div className="stack">
+                  Frontend Stack <br />
+                  React, JavaScript, CSS, Node.js, npm
+                </div>
+                <a
+                  href="https://github.com/MandySpaan/TattooStudio_Frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Frontend Project</button>
+                </a>
+              </div>
+              <hr className="separator-vertical" />
+              <div className="stack-button">
+                <div className="stack">
+                  Backend Stack
+                  <br />
+                  TypeScript, Node.js, npm, Express, MySQL
+                </div>
+                <a
+                  href="https://github.com/MandySpaan/TattooStudio_Backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Go to Backend Project</button>
+                </a>
+              </div>
             </div>
-            <a
-              href="https://github.com/MandySpaan/TattooStudio_Frontend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Frontend Project</button>
-            </a>
-            <a
-              href="https://github.com/MandySpaan/TattooStudio_Backend"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button>Go to Backend Project</button>
-            </a>
           </div>
           <div className="project-tile">
             <h3>Empanada Challenge</h3>
@@ -124,7 +160,7 @@ const Projects = () => {
               calculate how to achieve the best possible deals for a combination
               3 for 1 empanada promotion.
             </div>
-            <div>Stack: JavaScript, Jest</div>
+            <div className="stack">Stack: JavaScript, Jest</div>
             <a
               href="https://github.com/MandySpaan/Empanadas"
               target="_blank"
@@ -151,7 +187,7 @@ const Projects = () => {
               </a>{" "}
               to view the Interactive TV.
             </div>
-            <div>Stack: JavaScript, HTML, CSS</div>
+            <div className="stack">Stack: JavaScript, HTML, CSS</div>
             <a
               href="https://github.com/MandySpaan/InteractiveTV"
               target="_blank"
@@ -178,7 +214,7 @@ const Projects = () => {
               </a>{" "}
               to visit the CuteCake website.
             </div>
-            <div>Stack: HTML, CSS, Bootstrap</div>
+            <div className="stack">Stack: HTML, CSS, Bootstrap</div>
             <a
               href="https://github.com/MandySpaan/CuteCakes_BasicWebsite"
               target="_blank"

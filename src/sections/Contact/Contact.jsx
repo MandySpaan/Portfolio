@@ -2,10 +2,10 @@ import "./Contact.css";
 
 const Contact = () => {
   const DownloadEnglishCV =
-    "https://drive.google.com/uc?export=download&id=1OMWBoSI88RjTBahwzGtElAd_WiwNPvX3";
+    "https://drive.google.com/uc?export=download&id=1OIP4oTRRnP9svhyxYFZ6ynrv8cjCOOfU";
 
   const DownloadSpanishCV =
-    "https://drive.google.com/uc?export=download&id=1gQCp5S51cGYP90kIgfW9s7_6kVcs0gIb";
+    "https://drive.google.com/uc?export=download&id=1C2PXaiScFOXsI43TM3tabzRVujpGq3-W";
 
   return (
     <div className="contact-section">
@@ -42,19 +42,19 @@ const Contact = () => {
               <div className="contact-link-text">CV en Español</div>
             </div>
           </a>
-          <div className="contact-link-box">
-            <a
-              href="https://github.com/MandySpaan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="https://github.com/MandySpaan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contact-link-box">
               <img
                 className="github-img"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
               />
               <div className="contact-link-text">GitHub Page</div>
-            </a>
-          </div>
+            </div>
+          </a>
           <a
             href="https://www.linkedin.com/in/mandyspaan/"
             target="_blank"

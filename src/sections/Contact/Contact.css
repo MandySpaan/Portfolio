@@ -55,8 +55,7 @@
     }
 
     .github-img {
-        margin-left: 0.1rem;
-        margin-right: -0.1rem
+        align-self: center;
     }
 
     .contact-link-text {

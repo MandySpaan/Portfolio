@@ -27,7 +27,7 @@ const Home = () => {
               <span className="line-break-small">
                 <br />
               </span>{" "}
-              Full-Stack Development{" "}
+              Full Stack Development{" "}
               <span className="line-break">
                 <br />
               </span>

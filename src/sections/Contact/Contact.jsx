@@ -2,10 +2,10 @@ import "./Contact.css";
 
 const Contact = () => {
   const DownloadEnglishCV =
-    "https://drive.google.com/uc?export=download&id=1OIP4oTRRnP9svhyxYFZ6ynrv8cjCOOfU";
+    "https://drive.google.com/uc?export=download&id=1uutivgFAwV2oHy7tzFlISbaUted1g1mY";
 
   const DownloadSpanishCV =
-    "https://drive.google.com/uc?export=download&id=1C2PXaiScFOXsI43TM3tabzRVujpGq3-W";
+    "https://drive.google.com/uc?export=download&id=1B41Mh0MaIEeAV2_c7oz-I0hF89gl_QTX";
 
   return (
     <div className="contact-section">
